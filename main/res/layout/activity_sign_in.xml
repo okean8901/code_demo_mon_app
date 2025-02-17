@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:ignore="HardcodedText">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:contentDescription="Logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="System Login"
+        tools:ignore="HardcodedText"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:autofillHints="false"
+        android:background="#B4EEF6"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:hint="Enter username"
+        tools:ignore="HardcodedText,RtlSymmetry"
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/editusername"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:autofillHints="false"
+        android:background="#B4EEF6"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint="Enter password"
+        tools:ignore="HardcodedText,RtlSymmetry"
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/editpass"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="5dp"
+            android:text="Submit"
+            tools:ignore="HardcodedText"
+            android:backgroundTint="#010D7E"
+            android:id="@+id/btnSubmit"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:text="Cancel"
+            tools:ignore="HardcodedText"
+            android:backgroundTint="#010D7E"
+            android:id="@+id/btncancel"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you have an account ?"
+            android:textColor="#009688"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:textColor="#009688"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

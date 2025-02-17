@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="30sp"
+      android:text="MY PROFILE"
+      android:layout_centerHorizontal="true"
+      android:textStyle="bold"
+      tools:ignore="HardcodedText"
+      android:id="@+id/Profile"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_below="@id/Profile"
+        android:layout_marginTop="10dp"
+        android:id="@+id/avatar"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Hoàng Nhi"
+        tools:ignore="HardcodedText"
+        android:layout_below="@id/Profile"
+        android:layout_toEndOf="@id/avatar"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:id="@+id/hoangnhi"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17 tuổi"
+        android:layout_below="@id/hoangnhi"
+        android:layout_toEndOf="@id/avatar"
+        android:textStyle="italic"
+        android:id="@+id/tuoi"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thanh Xuân - Hà Nội"
+        tools:ignore="HardcodedText"
+        android:layout_below="@id/tuoi"
+        android:layout_toEndOf="@id/avatar"
+        android:textStyle="italic"
+        android:id="@+id/diachi"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIỂU SỬ: "
+        tools:ignore="HardcodedText"
+        android:layout_below="@id/diachi"
+        android:layout_toEndOf="@id/avatar"
+        android:textStyle="italic"
+        android:id="@+id/tieusu"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hoàng Nhi là một học sinh trung học phổ thông sinh ngày 20 tháng 1 năm 2008 tại Hà Nội, Việt Nam. Hiện tại, cô đang theo học lớp 12 tại Trường THPT Nguyễn Trãi. Với tính cách năng động và thành tích học tập đáng nể, Hoàng Nhi được biết đến là một học sinh tiêu biểu trong trường.
+
+Cô có niềm yêu thích đặc biệt với các môn Khoa học Tự nhiên, đặc biệt là Toán và Sinh học. Hoàng Nhi thường tham gia các kỳ thi học sinh giỏi và đã mang về nhiều giải thưởng cấp tỉnh. Bên cạnh đó, cô cũng đam mê đọc sách, khám phá các lĩnh vực liên quan đến y học và môi trường, nuôi dưỡng ước mơ trở thành bác sĩ để đóng góp cho cộng đồng.
+
+Không chỉ xuất sắc trong học tập, Hoàng Nhi còn là một thành viên tích cực của câu lạc bộ Tình nguyện. Cô luôn sẵn sàng tham gia các hoạt động từ thiện và phong trào bảo vệ môi trường tại địa phương. Nhiều bạn bè ngưỡng mộ tinh thần nhiệt huyết và khả năng lãnh đạo của cô trong việc tổ chức các dự án xã hội.
+
+Với tính cách hòa nhã, vui vẻ, và lòng quyết tâm, Hoàng Nhi là hình mẫu cho nhiều bạn học noi theo. Cô luôn giữ vững niềm tin rằng kiến thức và sự cống hiến sẽ là chìa khóa để mở ra cánh cửa thành công trong tương lai."
+        android:layout_below="@id/tieusu"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+</RelativeLayout>

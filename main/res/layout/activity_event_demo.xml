@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:autofillHints="false"
+        android:background="@color/blue"
+        android:inputType="text"
+        android:id="@+id/editInput"
+        tools:ignore="HardcodedText,LabelFor,RtlSymmetry"
+        android:hint="Enter data"
+        android:paddingStart="10dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click_me"
+        android:id="@+id/btnCLickme"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="open"
+        android:id="@+id/btnOpen"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="block"
+        android:id="@+id/btnBlock"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTextHidden"
+        android:textStyle="bold|italic"
+        android:textColor="@color/blue"
+        android:textAllCaps="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not a robot"
+        android:id="@+id/cbNotRobot"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btnSubmit"/>
+
+</LinearLayout>
