@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="System Login"
+        android:text="Signup Account"
         tools:ignore="HardcodedText"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -50,6 +50,29 @@
         android:textColor="@color/black"
         android:id="@+id/editpass"/>
 
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#B4EEF6"
+        android:layout_marginTop="10dp"
+        android:hint="Enter email"
+        android:paddingStart="10dp"
+        android:autofillHints="false"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edtEmail" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#B4EEF6"
+        android:layout_marginTop="10dp"
+        android:hint="Enter phone number"
+        android:paddingStart="10dp"
+        android:autofillHints="false"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edtPhone" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,10 +84,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginEnd="5dp"
-            android:text="Submit"
+            android:text="Register"
             tools:ignore="HardcodedText"
             android:backgroundTint="#010D7E"
-            android:id="@+id/btnSubmit"/>
+            android:id="@+id/btnRegister"/>
 
         <Button
             android:layout_width="0dp"
@@ -94,23 +117,17 @@
             tools:ignore="HardcodedText" />
 
         <TextView
+            android:id="@+id/tvLogin"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sign in"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:text="Login"
             android:textColor="#009688"
             android:textStyle="bold"
-            android:layout_marginStart="5dp"
-            tools:ignore="HardcodedText"
-            android:id="@+id/tvSignup"/>
+            tools:ignore="HardcodedText" />
+
     </LinearLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Forget Password"
-        android:layout_gravity="center_horizontal"
-        android:textSize="14dp"
-        android:textStyle="bold"
-        android:id="@+id/tvForgetPass"/>
+
 
 </LinearLayout>
 

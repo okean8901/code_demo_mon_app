@@ -16,13 +16,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CampusExpenseManagerSE06304"
         tools:targetApi="31">
-        <activity android:name=".SignInActivity"/>
+        <activity android:name=".MenuActivity"/>
+        <activity android:name=".DemoActivity"/>
         <activity android:name=".TestingSecondActivity"/>
         <activity android:name=".DemoIntentActivity"/>
+        <activity android:name=".SharePreferencesActivity"/>
+        <activity android:name=".SignupActivity"/>
+        <activity android:name=".ForgetPasswordActivity"/>
+        <activity android:name=".UpdatePasswordActivity"/>
         <activity
-            android:name=".TestingActivity"
+            android:name=".SignInActivity"
             android:exported="true"
-            android:theme="@style/Theme.ASM_APP_GROUP1">
+            android:theme="@style/Theme.ASM_APP_GROUP1"
+            tools:ignore="DuplicateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
